@@ -1,0 +1,21 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-about-us',
+  templateUrl: './about-us.component.html',
+  styleUrls: ['./about-us.component.css']
+})
+export class AboutUSComponent implements OnInit {
+
+  student = {
+    name: 'Jo-Anna Sillemann',
+    age: '46 år',
+    image: './assets/images/person.png'
+  }
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
